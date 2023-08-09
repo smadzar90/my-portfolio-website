@@ -1,0 +1,48 @@
+section#Skills {
+    border-bottom: 1px solid rgb(214, 211, 211);
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 55px;
+}
+
+div#wrap {
+    display: flex;
+    max-width: 1600px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    column-gap: 70px;
+}
+
+.boxI {
+    margin-bottom: 18px;
+    width: 43px;
+}
+
+.fx {
+    margin-bottom: 18px;
+    height: 68px;
+}
+
+.box {
+    width: 170px;
+    height: 140px;
+    border: 1px solid grey;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.lab {
+    margin-bottom: 13px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+}

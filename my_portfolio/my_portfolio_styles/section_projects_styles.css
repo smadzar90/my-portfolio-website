@@ -1,0 +1,27 @@
+section#Projects {
+    border-bottom: 1px solid rgb(214, 211, 211);
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+div#cntr3 {
+    width: 100%;
+    max-width: 1600px;
+}
+
+ul {
+    font-size: 16px;
+    margin-bottom: 23px;
+}
+
+ul li {
+    margin-top: 5px;
+}
+
+label#dots {
+    font-weight: bold;
+    font-size: larger;
+}

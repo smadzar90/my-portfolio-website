@@ -1,0 +1,124 @@
+section#Contact {
+    border-bottom: 1px solid rgb(214, 211, 211);
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 55px;
+}
+
+div#cntr2 {
+    width: 100vw;
+    max-width: 1600px;
+}
+
+img#plane {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    padding: 30px;
+    width: 580px;
+    position: relative;
+    text-align: center;
+    color: #5b5d5d;
+    background-color: #f3f1f0;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+
+input {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #313131;
+    padding-right: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 460px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: #f3f1f0;
+}
+
+div#cntr2 {
+    max-width: 1600px;
+}
+
+button#fb {
+    border: 1px solid grey;
+    background-color: white;
+    margin-top: 30px;
+    width: 90px;
+    font-size: 13px;
+    height: 35px;
+}
+
+button#fb:hover {
+    background-color: #d5d8d8;
+}
+
+input:focus {
+    outline: none !important;
+    border-bottom: 1px solid black;
+}
+
+textarea:focus {
+    outline: none !important;
+    border-bottom: 1px solid black !important;
+}
+
+textarea#tta {
+    padding-top: 7px;
+    resize: none;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 460px;
+    background-color: #f3f1f0;
+    border: none;
+    border-bottom: 1px solid grey;
+    resize: none;
+    box-sizing: border-box;
+}
+
+h3#hh3 {
+    margin: 0;
+    margin-bottom:  15px;
+    margin-top: 15px;
+}
+
+span#ssp {
+    display: inline-block;
+}
+
+.wrapper {
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.ssp {
+    overflow: hidden;
+    position: absolute;
+    color: chocolate;
+    right: 4px;
+    top: 50%;
+    font-size: 11px;
+    transform: translateY(-50%);
+}
+
+.ssp i {
+    color: green;
+    font-size: 15px;
+}

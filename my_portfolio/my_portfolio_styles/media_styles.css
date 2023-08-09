@@ -1,0 +1,338 @@
+@media (max-width: 600px) {
+    div#nav-bar {
+        all: initial;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 15vw;
+        background-color: #f2efef;
+        position: fixed;
+        z-index: 1;
+    }
+    img#myPic {
+        width: 11%;
+        margin: 0;
+        margin-left: 2%;
+        border: 1px solid;
+    }
+    h4.mobile {
+        all: initial;
+        width: 100%;
+        margin-left: 3%;
+        font-size: clamp(0.1rem, 6vw, 10rem);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: 2px;
+        padding-left: 3%;
+        cursor: pointer;
+    }
+
+    h4#name {
+        display: none;
+    }
+    
+    a.mobile {
+        width: 60%;
+        display:flex;
+        position: relative;
+        justify-content: left;
+        text-decoration: none;
+    }
+
+    h4.mobile:hover {
+        color: rgb(93, 92, 92);
+    }
+
+    h4.mobile:active {
+        color: rgb(198, 197, 196);
+    }
+    
+    nav {
+       display: none;
+    }
+
+    .icons {
+        all: unset;
+        margin-left: 20%;
+        cursor: pointer;
+        display: flex;
+    }
+
+    div#bottom-content {
+        all: unset;
+        width: 23.5%;
+        height: 33%;
+        display: flex;
+        justify-content: end;
+        padding-right: 3%;
+    }
+
+    div#main-content {
+        width: 100%;
+        height: calc(100% - 15vw) !important;
+        margin-top: 15vw;
+    }
+
+    section#home {
+        height: calc(100vh - 15vw) !important;
+    }
+
+    ion-icon {
+        all: unset;
+    }
+
+    .icons:hover {
+        background-color: rgb(198, 197, 196) !important;
+    }
+
+    .icons:active {
+        background-color: rgb(198, 197, 196) !important;
+    }
+
+    label#m1 {
+        line-height: 165% !important;
+        font-size: clamp(1.8em, 10vw, 10rem) !important;
+    }
+
+    span#m2 {
+        font-size: clamp(2rem, 12vw, 4rem) !important;
+    }
+
+    span#sd {
+        font-size: clamp(1rem, 6vw, 50rem) !important;
+    }
+
+    img#star {
+        width:  clamp(1rem, 6vw, 50rem) !important;
+    }
+
+    button {
+        font-size: clamp(0.5rem, 3.1vw, 1rem) !important;
+    }
+
+    span#line {
+        font-size: 18px !important;
+    }
+    
+    p {
+        font-size: 14px !important;
+    }
+    
+    span#name {
+        font-size: 18px !important;
+    }
+
+    .boxI {
+        width: 30px !important;
+        margin-bottom: 10px !important; 
+    }
+    
+    .fx {
+        margin-bottom: 18px;
+        height: 35px !important;
+    }
+
+    img#fx {
+        height: 48px !important;
+        width: 60px;
+        margin-bottom: 10px;
+    }
+    
+    .box {
+        width: 135px !important;
+        height: 100px !important;
+        margin-bottom: 40px !important;
+    }
+    
+    .lab {
+        margin-bottom: 13px;
+        font-size: 13px !important;
+    }
+
+}
+
+@media (max-width: 840px) {
+    form {
+        padding: 20px !important;
+        width: 400px !important;
+        padding-top: 30px !important;
+    }
+
+    img#plane {
+        width: 45px !important;
+    }
+
+    .ssp {
+        font-size: 9px !important;
+    }
+
+    i {
+        font-size: 13px !important;
+    }
+    
+    input {
+        font-size: 12px !important;
+        width: 330px !important;
+        height: 29px !important;
+    }
+
+    .wrapper {
+        height: 29px !important;
+    }
+    
+    textarea#tta {
+        width: 330px !important;
+        font-size: 12px !important;
+    }
+
+    button#fb {
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width: 470px) {
+    form {
+        width: 350px !important;
+    }
+
+    input {
+        font-size: 10px !important;
+        width: 300px !important;
+        height: 29px !important;
+    }
+
+    textarea#tta {
+        width: 300px !important;
+        font-size: 10px !important;
+    }
+
+    i {
+        font-size: 12px !important;
+    }
+
+    .ssp {
+        font-size: 9px !important;
+    }
+
+    h3#hh3 {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    form {
+        width: 300px !important;
+    }
+    h3#hh3 {
+        font-size: 16px !important;
+    }
+    input {
+        width: 260px !important;
+    }
+
+    textarea#tta {
+        width: 260px !important;
+    }
+
+}
+
+@media (max-width: 340px) {
+    label#m1 {
+        width: 95% !important;
+    }
+    form {
+        width: 260px !important;
+    }
+    input {
+        width: 220px !important;
+        font-size: 9px !important;
+    }
+
+    textarea#tta {
+        width: 220px !important;
+        font-size: 9px !important;
+    }
+
+    i {
+        font-size: 11px !important;
+    }
+
+    .ssp {
+        font-size: 8px !important;
+    }
+}
+
+@media (max-width: 1153px) and (min-width: 601px) {
+    div#main-content {
+        width: calc(100% - 150px) !important;
+    }
+}
+
+@media (min-width: 2154px) {
+    div#main-content {
+        width: calc(100% - 280px) !important;
+    }
+}
+
+@media (min-width: 2400px) {
+    section#home {
+        min-height: 1000px;
+    }
+}
+
+@media (max-width: 2400px) {
+    section#home {
+        min-height: 700px;
+    }
+}
+
+@media (max-width: 1800px) {
+    section#home {
+        min-height: 550px;
+    }
+}
+
+@media (max-width: 1400px) {
+    section#home {
+        min-height: 400px;
+    }
+}
+
+@media (max-width: 1000px) {
+    div#split {
+        flex-direction: row;
+        flex-wrap: wrap;    
+
+    }
+
+    div#divleft {
+        width: 100% !important;
+    }
+
+    div#divright {
+        margin-top: 30px;
+        margin-left: 0% !important;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        flex-direction: row;
+        width: 100%;
+    }
+}
+
+@media (max-width: 660px) {
+    div#divright { 
+        margin-top: 50px;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+

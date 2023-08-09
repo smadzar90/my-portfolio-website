@@ -1,0 +1,96 @@
+section#About_me {
+    border-bottom: 1px solid rgb(214, 211, 211);
+    display: flex;
+    padding-left: 4%;
+    padding-right: 4%;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;  
+    align-items: center;
+    padding-bottom: 55px;
+}
+
+div#split {
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div#divleft {
+    width: 69%;
+    height: 100%;
+    padding: 30px;
+    background-color: #f3f1f0;
+    border-radius: 20px;
+}
+
+div#divright {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div#info {
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    line-height: 30px;
+    border-radius: 20px;
+}
+
+span#line {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+span#name {
+    color: chocolate;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.un {
+    display: flex;
+    margin-bottom: 27px;
+    letter-spacing: 0.5px;
+}
+
+.univ {
+    width: 40px;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 10px;
+    display: block;
+}
+
+.nas {
+    font-size: 11.5px;
+    line-height: 13px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.descr {
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.grade {
+    display: block;
+    margin-top: 8px;
+    font-size: 11px;
+}
+
+.date {
+    display: block;
+    margin-top: 8px;
+    font-size: 10px;
+    color: rgb(159, 68, 3);
+}

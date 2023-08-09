@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stipan - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="my_portfolio_styles/main_styles.css"/>
+    <link rel="stylesheet" type="text/css" href="my_portfolio_styles/nav_bar_styles.css"/>
+    <link rel="stylesheet" type="text/css" href="my_portfolio_styles/media_styles.css"/>
+    <link rel="stylesheet" type="text/css" href="my_portfolio_styles/section_home_styles.css"/>
+    <link rel="stylesheet" type="text/css" href="my_portfolio_styles/section_about_me_styles.css"/>
+    <link rel="stylesheet" type="text/css" href="my_portfolio_styles/section_skills_styles.css"/>
+    <link rel="stylesheet" type="text/css" href="my_portfolio_styles/section_projects_styles.css"/>
+    <link rel="stylesheet" type="text/css" href="my_portfolio_styles/section_contact_styles.css"/>
+    <script  type="text/javascript" src="my_portfolio_script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+      emailjs.init("ngJj71AFBpWUEA8a-");
+    })();
+    </script>
+</head>
+<body>
+    <div id="nav-bar">
+        <img id="myPic" src="images/myPic.jpg" alt="My picture">
+        <h4 id="name">Stipan Madžar</h4>
+        <a class="mobile" href="#">
+            <h4 class="mobile">Stipan Madžar</h4>
+        </a>
+        <div id="bottom-content">
+            <a href="https://github.com/smadzar90" target="_blank" class="icons">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/stipan-madzar-b6b857225/" target="_blank" class="icons">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+        </div>
+        <nav>
+            <a href="#" id="home">Home</a>
+            <a href="#About_me" id="aboutme">About me</a>
+            <a href="#Skills" id="skills">Skills</a>
+            <a href="#Projects" id="projects">Projects</a>
+            <a href="#Contact" id="contact">Contact</a>
+        </nav>
+    </div>
+    <div id="main-content">
+        <section id="home">
+            <label id="m1">
+                <span id="m2">Hi!</span><br>I'm Stipan Madžar<br>
+                <img id="star" src="images/starIcon.png" width="4.5%">
+                <span id="sd">SOFTWARE DEVELOPER</span>
+            </label>
+                <button onclick="window.open('resume/CV-StipanMadzar.pdf')">Open CV</button>
+        </section>
+        <section id="About_me">
+            <div id="cntr">
+                <h1>ABOUT ME</h1>
+                <div id="split">
+                    <div id="divleft">
+                        <p><span id="line">I'm <span id="name">Stipan Madžar</span>, a Computer Science 
+                            student, and a sports enthusiast.<br></span><br>
+                            My journey into the world of computer science began with a curiosity for understanding 
+                            how computers work and a fascination with the power of software to solve complex problems. 
+                            I am currently pursuing my education in computer science, where I have had the opportunity 
+                            to dive deep into various programming languages, algorithms, data structures, and software 
+                            development methodologies. Through my studies, I have gained a solid foundation in computer 
+                            science principles and have developed a knack for logical thinking and problem-solving.
+                            <br><br>
+                            As a computer science student, I believe in the power of innovation and continuous learning. 
+                            I always strive to stay up to date with the latest advancements in technology and actively seek 
+                            opportunities to apply my knowledge through assignments and projects. I am excited about the 
+                            possibilities that lie ahead and look forward to contributing to the world of technology through 
+                            innovative software solutions.
+                        </p>
+                    </div>
+                    <div id="divright"> 
+                        <div id="info">
+                            <b>Name:</b> Stipan Madzar<br> <hr>
+                            <b>Email:</b> smadzar90@student.se.edu<br> <hr>
+                            <b>Age:</b> 22<br> <hr>
+                            <b>From:</b> Split, Croatia <br> <hr>
+                        </div>
+                        <div id="education">
+                            <h5 id="cc">Education</h5>
+                            <div class="un">
+                                <img class="univ" src="images/sosu.png">
+                                    <div class="labels">
+                                        <label class="nas"><b>Southeastern Oklahoma State<br> Universtiy</b></label>
+                                        <label class="descr">Bachelor's Degree, Computer Science</label>
+                                        <label class="date">Jan 2022 - Present</label>
+                                        <label class="grade">Grade: GPA 3.7</label>
+                                    </div>
+                                </div>
+                            <div class="un">
+                                <img class="univ" src="images/nccu.png">
+                                    <div class="labels">
+                                        <label class="nas"><b>North Carolina Central<br> Universtiy</b></label>
+                                        <label class="descr">Bachelor's Degree, Computer Science</label>
+                                        <label class="date">Aug 2020 - Dec 2021</label>
+                                        <label class="grade">Grade: GPA 3.7</label>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Skills">
+            <div id="cntr2">
+                <h1>SKILLS</h1>
+                <div id="wrap">
+                    <div class="box">
+                        <img class="boxI" src="images/javaLogo.png">
+                        <label class="lab">Java</label>
+                    </div>
+                    <div class="box">
+                        <img class="fx" id="fx" src="images/javafxLogo.png" width="70px">
+                        <label class="lab">JavaFX</label>
+                    </div>
+                    <div class="box">
+                        <img class="fx" src="images/cppLogo.png">
+                        <label class="lab">C++</label>
+                    </div>
+                    <div class="box">
+                        <img class="fx" src="images/jsLogo.png">
+                        <label class="lab">JavaScript</label>
+                    </div>
+                    <div class="box">
+                        <img class="fx" src="images/cssLogo.png">
+                        <label class="lab">CSS</label>
+                    </div>
+                    <div class="box">
+                        <img class="fx" src="images/htmlLogo.png">
+                        <label class="lab">HTML</label>
+                    </div>
+                    <div class="box">
+                        <img class="fx" src="images/phpIcon.png">
+                        <label class="lab">PHP</label>
+                    </div>
+                    <div class="box">
+                        <img class="fx" src="images/oopLogo.png" style="margin-bottom: 10px;">
+                        <label class="lab">Object-Oriented Programming</label>
+                    </div>
+                    <div class="box">
+                        <img class="fx" src="images/datastrLogo.png">
+                        <label class="lab">Data Structures</label>
+                    </div>
+                    <div class="box">
+                        <img class="fx" src="images/comsLogo.png">
+                        <label class="lab">Communication</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Projects">
+            <div id="cntr3">
+                <h1>PROJECTS</h1>
+                <div id="list">
+                    <h3>Unit Converter</h3>
+                    <ul>
+                        <li>Application that converts temperature, weight, and distance units from one to another</li>
+                        <li>Created with HTML, CSS, and JavaScript</li>
+                    </ul>
+                    <hr>
+                    <h3>Financial Transaction Book</h3>
+                    <ul>
+                        <li>Transaction book keeper that saves information about the user's transactions</li>
+                        <li>Created with PHP, HTML, and CSS</li>
+                    </ul>
+                    <hr>
+                    <h3>Number Converter</h3>
+                    <ul>
+                        <li>Number base conversion program</li>
+                        <li>Created with Java</li>
+                    </ul>
+                    <hr>
+                    <h3>Marie's Computer</h3>
+                    <ul>
+                        <li>Program that simulates Marie's Computer and its architecture</li>
+                        <li>Takes instructions as an input and executes them</li>
+                        <li>Created with Java</li>
+                    </ul>
+                    <hr>
+                    <h3>Scheduling Algorithms</h3>
+                    <ul>
+                        <li>Implementation of Round-Robin, FCFS, SRTF, and SJF Algorithms</li>
+                        <li>Created with C++</li>
+                    </ul>
+                    <hr>
+                    <h3>To-Do-List</h3>
+                    <ul>
+                        <li>To-do-list in JavaScript</li>
+                    </ul>
+                    <hr>
+                    <h3>My Hash Table</h3>
+                    <ul>
+                        <li>Implementation of the hash table with separate chaining (put(), remove(), get())</li>
+                        <li>Created in Java</li>
+                    </ul>
+                </div>
+                <label id="dots">. . .</label>
+            </div>
+        </section>
+        <section id="Contact">
+            <div id="cntr2">
+                <h1>CONTACT</h1>
+                <div id="wrap">
+                <form onsubmit="validateForm(); return false;">
+                    <img id="plane" src="images/planeIcon.png" width="55px">
+                    <h3 id="hh3">GET IN TOUCH</h3>
+                    <div class="wrapper">
+                        <input id="txt1" type="text" placeholder="Your Name:" onkeyup="nameValidation()">
+                        <span class="ssp" id="text-err"></span>
+                    </div>
+                    <div class="wrapper">
+                        <input id="em1" type="email" placeholder="Email:" onkeyup="emailValidation()">
+                        <span class="ssp" id="email-err"></span>
+                    </div>
+                    <div class="wrapper">
+                        <input id="ph1" type="text" placeholder="Phone Number:" onkeyup="phoneValidation()">
+                        <span class="ssp" id="phone-err"></span>
+                    </div>
+                    <div class="wrapper">
+                        <textarea id="tta" rows="5" placeholder="Message:" onkeyup="messageValidation()"></textarea>
+                        <span class="ssp" id="area-err"></span>
+                    </div>
+                    <button type="submit" id="fb">Send</button>
+                </form>
+                </div>
+                </div>
+        </section>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

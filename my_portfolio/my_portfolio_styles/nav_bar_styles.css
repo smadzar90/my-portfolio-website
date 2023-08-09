@@ -1,0 +1,58 @@
+img#myPic {
+    width: 75%;
+    display : block;
+    margin : auto;
+    border-radius: 50%;
+}
+
+h4#name {
+    text-align: center;
+    font-size: clamp(0.9rem, 1.15vw, 1.6rem);
+}
+
+.mobile {
+    display: none;
+}
+
+nav {
+    margin-top: 15vh;
+    position: relative;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    margin-top: 18%;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-size: clamp(0.9rem, 1.15vw, 1.6rem);
+}
+
+a {
+    color: black;
+}
+
+div#bottom-content {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.icons {
+    text-decoration: none;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+a:hover {
+    color: #cd6e0e !important;
+}
+
+ion-icon {
+    width: 1.5vw;
+    max-width: 35px;
+    min-width: 20px;
+    height: 1.5vw;
+    min-height: 20px;
+    max-height: 35px;
+}
