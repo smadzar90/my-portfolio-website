@@ -88,7 +88,9 @@ textarea#tta {
     border: none;
     border-bottom: 1px solid grey;
     resize: none;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;  
 }
 
 h3#hh3 {
@@ -106,6 +108,11 @@ span#ssp {
     position: relative;
     height: 40px;
     margin-bottom: 20px;
+}
+
+.wrapper2 {
+    display: inline-block;
+    position: relative;
 }
 
 .ssp {
