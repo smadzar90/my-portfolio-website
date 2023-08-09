@@ -55,7 +55,7 @@ div#cntr2 {
 button#fb {
     border: 1px solid grey;
     background-color: white;
-    margin-top: 30px;
+    margin-top: 30px !important;
     width: 90px;
     font-size: 13px;
     height: 35px;
