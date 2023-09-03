@@ -1,4 +1,16 @@
-@media (max-width: 900px) {
+@media (hover: hover) {
+    @media (max-width: 950px) {
+        h4.mobile:hover {
+            color: rgb(113, 120, 120);
+        }
+
+        .icons:hover {
+            background-color: rgb(192, 197, 197);
+        }
+    }
+}
+
+@media (max-width: 950px) {
     div#nav-bar {
         all: initial;
         width: 100%;
@@ -21,7 +33,7 @@
         all: initial;
         width: 100%;
         margin-left: 3%;
-        font-size: clamp(0.1rem, 6vw, 2.4rem);
+        font-size: clamp(0.1rem, 6vw, 1.75rem);
         font-family:Georgia, 'Times New Roman', Times, serif;
         letter-spacing: 2px;
         padding-left: 3%;
@@ -38,14 +50,6 @@
         position: relative;
         justify-content: left;
         text-decoration: none;
-    }
-
-    h4.mobile:hover {
-        color: rgb(93, 92, 92);
-    }
-
-    h4.mobile:active {
-        color: rgb(198, 197, 196);
     }
     
     nav {
@@ -80,14 +84,6 @@
 
     ion-icon {
         all: unset;
-    }
-
-    .icons:hover {
-        background-color: rgb(198, 197, 196) !important;
-    }
-
-    .icons:active {
-        background-color: rgb(198, 197, 196) !important;
     }
 
     label#m1 {
@@ -138,7 +134,11 @@
     .box {
         width: 135px !important;
         height: 100px !important;
-        margin-bottom: 40px !important;
+        margin: 0px !important;
+    }
+
+    div#wrap {
+        gap: 60px !important;
     }
     
     .lab {
@@ -267,7 +267,7 @@
     }
 }
 
-@media (max-width: 1153px) and (min-width: 901px) {
+@media (max-width: 1153px) and (min-width: 951px) {
     div#main-content {
         width: calc(100% - 150px) !important;
     }
