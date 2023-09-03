@@ -1,16 +1,18 @@
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     div#nav-bar {
         all: initial;
         width: 100%;
         display: flex;
         align-items: center;
         height: 15vw;
+        max-height: 70px;
         background-color: #f2efef;
         position: fixed;
         z-index: 1;
     }
     img#myPic {
         width: 11%;
+        max-width: 55px;
         margin: 0;
         margin-left: 2%;
         border: 1px solid;
@@ -19,7 +21,7 @@
         all: initial;
         width: 100%;
         margin-left: 3%;
-        font-size: clamp(0.1rem, 6vw, 10rem);
+        font-size: clamp(0.1rem, 6vw, 2.4rem);
         font-family:Georgia, 'Times New Roman', Times, serif;
         letter-spacing: 2px;
         padding-left: 3%;
@@ -68,12 +70,12 @@
 
     div#main-content {
         width: 100%;
-        height: calc(100% - 15vw) !important;
-        margin-top: 15vw;
+        height: max(calc(100% - 15vw), calc(100% - 70px)) !important;
+        margin-top: min(15vw, 70px);
     }
 
     section#home {
-        height: calc(100vh - 15vw) !important;
+        height: max(calc(100vh - 70px), calc(100vh - 15vh)) !important;
     }
 
     ion-icon {
@@ -90,7 +92,7 @@
 
     label#m1 {
         line-height: 165% !important;
-        font-size: clamp(1.8em, 10vw, 10rem) !important;
+        font-size: clamp(1.8em, 10vw, 3rem) !important;
     }
 
     span#m2 {
@@ -98,15 +100,11 @@
     }
 
     span#sd {
-        font-size: clamp(1rem, 6vw, 50rem) !important;
+        font-size: clamp(1rem, 6vw, 1.5rem) !important;
     }
 
     img#star {
-        width:  clamp(1rem, 6vw, 50rem) !important;
-    }
-
-    button {
-        font-size: clamp(0.5rem, 3.1vw, 1rem) !important;
+        width:  clamp(1rem, 6vw, 1.5rem) !important;
     }
 
     span#line {
@@ -185,7 +183,9 @@
     }
 
     button#fb {
-        font-size: 13px !important;
+        font-size: 11px !important;
+        width: 80px !important;
+        height: 30px !important;
     }
 }
 
@@ -267,7 +267,7 @@
     }
 }
 
-@media (max-width: 1153px) and (min-width: 601px) {
+@media (max-width: 1153px) and (min-width: 901px) {
     div#main-content {
         width: calc(100% - 150px) !important;
     }
