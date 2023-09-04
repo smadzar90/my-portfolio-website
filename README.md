@@ -24,9 +24,9 @@ It provides an overview of my background, education, and areas of expertise..
 
 ## Screenshots
 
-<img src="screenshots/screenshot1.png" width="850" height="400" />
-<img src="screenshots/screenshot2.png" width="850" height="400" />
-<img src="screenshots/screenshot3.png" width="800" height="900" />
+<img src="screenshots/screenshot1.png" width="750" height="400" />
+<img src="screenshots/screenshot2.png" width="750" height="400" />
+<img src="screenshots/screenshot3.png" width="500" height="700" />
 
 
 ## Installation
