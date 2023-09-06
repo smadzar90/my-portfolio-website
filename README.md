@@ -3,7 +3,7 @@
 ## 📄  Description
 
 This is the personal portfolio website build in HTML, CSS, and JavaScript. This portfolio showcases my skills, projects, and contact information. 
-It provides an overview of my background, education, and areas of expertise..
+It provides an overview of my background, education, and areas of expertise...
 
 ## 💻  Technologies
 
