@@ -7,12 +7,7 @@ It provides an overview of my background, education, and areas of expertise...
 
 ## 💻  Technologies
 
-- **React** 
-- **React Icons**
-- **date-fns**: Used for date and time formatting, specifically for displaying the current date and time.
-- **CSS**: Styles the application for a user-friendly and responsive interface.
-- **localStorage**: Utilized to persist the state of the todo list and certain settings in the user's browser.
-- **Node.js and npm**
+- HTML
 - CSS
 - JavaScript
 - [Font Awesome](https://fontawesome.com/) (for icons)
